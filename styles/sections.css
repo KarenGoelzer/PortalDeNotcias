@@ -28,6 +28,10 @@
 
       padding: 24px;
 
+      &:has(.text-lg){ /* verifica se tem uma tag com .text-lg */
+        padding: 12px; /* se tem, então aplica esse padding*/
+      }
+
       h2{
         margin-top: 8px;
       }
